@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: azure-openai-chat-frontend
+metadata:
+  template: azure-openai-chat-frontend
+services:
+  chatfrontendapp:
+    project: ./
+    dist: dist
+    language: ts
+    host: staticwebapp
+    hooks:
+      predeploy:
+        windows:
+          shell: pwsh
+          run: npm run build
+          interactive: false
+          continueOnError: false
+        posix:
+          shell: sh
+          run: npm run build
+          interactive: false
+          continueOnError: false

@@ -1,0 +1,20 @@
+{
+  "name": "ai-onboarding-assistant",
+  "version": "1.0.0",
+  "description": "Employee Onboarding Assistant w/ RAG",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "python backend/main.py",
+    "start-frontend": "npm run start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraceBrigham/rag-onboarding-assistant.git"
+  },
+  "author": "Zachary King & Grace Brigham",
+  "license": "PRIVATE",
+  "bugs": {
+    "url": "https://github.com/GraceBrigham/rag-onboarding-assistant/issues"
+  },
+  "homepage": "https://github.com/GraceBrigham/rag-onboarding-assistant#readme"
+}

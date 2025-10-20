@@ -28,7 +28,7 @@
     "marked": "^9.1.5"
   },
   "devDependencies": {
-    "@playwright/test": "^1.43.0",
+    "@playwright/test": "^1.56.1",
     "@types/dom-speech-recognition": "^0.0.4",
     "@types/dompurify": "^3.0.3",
     "@types/node": "^20.12.5",
